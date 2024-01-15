@@ -1,0 +1,13 @@
+//Table of a any number
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i,num;
+	cout<<"Enter the table number:";
+	cin>>num;
+	for(i=1;i<=10;i++){
+		cout<<i*num<<" ";
+	}
+	cout<<endl;
+}
