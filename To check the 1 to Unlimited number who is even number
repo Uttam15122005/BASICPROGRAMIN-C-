@@ -1,0 +1,16 @@
+// to print 1 to unlimited to check the only Even Number
+//Unlimited is nothis but this is your choice the number ex- 1 to 20
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i,num;
+	cout<<"Enter the number limit:";
+	cin>>num;
+	for(i=1;i<=num;i++){
+		if(i%2==0){
+			cout<<i<<" ";
+		}
+	}
+	cout<<endl;
+}
