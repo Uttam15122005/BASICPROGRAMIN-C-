@@ -1,0 +1,15 @@
+// Write the any name or numbers N times
+#include<iostream>
+using namespace std;
+int main()
+{
+//i is integer number
+	int i,n;
+// n is number of limit
+	cout<<"Enter the limit:";
+	cin>>n;
+	for(i=1;i<=n;i++){
+		cout<<"RAM\n"<<" ";
+	}
+	cout<<endl;
+}
