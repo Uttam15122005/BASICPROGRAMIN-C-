@@ -1,0 +1,14 @@
+//write the count of 1 to n number
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i,num;
+//num is nothing but this is end number
+	cout<<"Enter the limit:";
+	cin>>num;
+	for(i=1;i<=num;i++){
+		cout<<i<<" ";
+	}
+	cout<<endl;
+}
