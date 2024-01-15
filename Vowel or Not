@@ -1,0 +1,27 @@
+// to check the alphabet vowel or consonent
+#include<iostream>
+using namespace std;
+int main()
+{
+	char x;
+	cout<<"Enter the alphabet";
+	cin>>x;
+	if(x=='a' || x == 'A'){
+		cout<<"Vowel Alphabet";
+	}
+	else if(x=='e' || x == 'E'){
+		cout<<"Vowel Alphabet";
+	}
+	else if(x=='i' || x=='I'){
+		cout<<"Vowel Alphabet";
+	}
+	else if(x=='o' || x == 'O'){
+		cout<<"Vowel Alphabet";
+	}
+	else if(x=='u' || x == 'U'){
+		cout<<"Vowel Alphabet";
+	}else{
+		cout<<"Consonent";
+	}
+	cout<<endl;
+}
