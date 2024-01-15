@@ -1,0 +1,17 @@
+//this is jump of a any number
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i,num,jump;
+//this is end point of a number
+	cout<<"Enter the number for a end point:";
+	cin>>num;
+//this is to denored the how many point jump in our table
+	cout<<"Enter the jump limit:";
+	cin>>jump;
+	for(i=1;i<=num;i=i+jump){
+		cout<<i<<" ";
+	}
+	cout<<endl;
+}
